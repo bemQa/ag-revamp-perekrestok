@@ -198,4 +198,18 @@ $(document).ready(function () {
         slidesToScroll: 1,
         swipe: false
     });
+
+    $('.popup-prize').click(function() {
+        $('.popup-prize').removeClass('active');
+        $(this).addClass('active');
+        $('.choose-prize-form .btn').removeClass('disabled');
+    });
+
+    if($('.dropify').length) {
+        $('.dropify').dropify({
+            tpl: {
+                clearButton: '<button type="button" class="dropify-clear">X</button>'
+            }
+        });
+    }
 });

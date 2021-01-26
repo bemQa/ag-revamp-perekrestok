@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="fonts/stylesheet.css">
 	<link rel="stylesheet" href="libs/select2/select2.min.css">
 	<link rel="stylesheet" href="libs/scrollbar/jquery.scrollbar.css">
+	<link rel="stylesheet" href="libs/dropify/dropify.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<!--[if lte IE 9]>
     <script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script>
@@ -183,12 +184,32 @@
 								<div class="lk-prize">
 									<div class="lk-prize-title">Розыгрыш</div>
 									<div class="lk-prize-img">
-										<img src="img/prizes/lk-prize3.png" alt="">
+										<img src="img/prizes/popup-prize3-1.png" alt="">
+									</div>
+									<div class="lk-prize-name">Свитшот</div>
+									<div class="lk-prize-text">г. Санкт-Петербург</div>
+									<a href="#!" class="lk-prize-link link pop-op" data-popup="change-city">Выбрать другой город</a>
+									<a href="#!" class="lk-prize-link2 link pop-op" data-popup="get-prize-address">Необходимо указать адрес</a>
+								</div>
+								<div class="lk-prize">
+									<div class="lk-prize-title">Розыгрыш</div>
+									<div class="lk-prize-img">
+										<img src="img/prizes/popup-prize3-2.png" alt="">
+									</div>
+									<div class="lk-prize-name">Сумка-шоппер</div>
+									<div class="lk-prize-text">г. Санкт-Петербург</div>
+									<a href="#!" class="lk-prize-link link pop-op" data-popup="change-city">Выбрать другой город</a>
+									<a href="#!" class="lk-prize-link2 link pop-op" data-popup="get-prize-address">Необходимо указать адрес</a>
+								</div>
+								<div class="lk-prize">
+									<div class="lk-prize-title">Розыгрыш</div>
+									<div class="lk-prize-img">
+										<img src="img/prizes/popup-prize3-3.png" alt="">
 									</div>
 									<div class="lk-prize-name">Футболка</div>
 									<div class="lk-prize-text">г. Санкт-Петербург</div>
 									<a href="#!" class="lk-prize-link link pop-op" data-popup="change-city">Выбрать другой город</a>
-									<a href="#!" class="lk-prize-link2 link pop-op" data-popup="get-winner-address">Необходимо указать адрес</a>
+									<a href="#!" class="lk-prize-link2 link pop-op" data-popup="get-prize-address">Необходимо указать адрес</a>
 								</div>
 								<div class="lk-prize">
 									<div class="lk-prize-title">Главный приз</div>
@@ -340,7 +361,7 @@
 	                        </div>
 						</div>
 						<div class="btn-wrapper">
-							<!-- <button class="btn"><span>Войти</span></button> -->
+							<!-- <button class="btn popup-btn">Отправить</button> -->
 							<a href="#!" class="btn popup-btn pop-op" data-popup="reg-success">Отправить</a>
 						</div>
                     </form>
@@ -446,6 +467,208 @@
                 </div>
             </div>
 		</div>
+		<div id="choose-prize" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup">
+					<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.0078 2L2.00781 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    					<path d="M2.00781 2L18.0078 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</a>
+                <div class="popup__inner">
+                	<div class="popup__title">Выберите приз</div>
+                    <div class="popup__desc">Ваш чек участвует в розыгрыше одного из призов. Выберите приз, который хотите выиграть:</div>
+                    <form class="popup-form choose-prize-form">
+                    	<div class="popup-prize">
+                    		<div class="popup-prize-img">
+                    			<img src="img/prizes/popup-prize3-1.png" alt="">
+                    		</div>
+                    		<div class="popup-prize-name">Свитшот</div>
+                    	</div>
+                    	<div class="popup-prize">
+                    		<div class="popup-prize-img">
+                    			<img src="img/prizes/popup-prize3-2.png" alt="">
+                    		</div>
+                    		<div class="popup-prize-name">Сумка-шоппер</div>
+                    	</div>
+                    	<div class="popup-prize mb30">
+                    		<div class="popup-prize-img">
+                    			<img src="img/prizes/popup-prize3-3.png" alt="">
+                    		</div>
+                    		<div class="popup-prize-name">Футболка</div>
+                    	</div>
+                    	<div class="btn-wrapper">
+	                		<a href="#!" class="btn popup-btn pop-op disabled" data-popup="change-city">Продолжить</a>
+	                	</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<div id="change-city" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup">
+					<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.0078 2L2.00781 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    					<path d="M2.00781 2L18.0078 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</a>
+                <div class="popup__inner">
+                	<div class="popup__title">Выберите город</div>
+                    <div class="popup__desc">Выберите город из списка, название которого хотите видеть на Вашем призе:</div>
+                    <form class="popup-form change-city-form">
+                    	<div class="selected-prize">
+                    		<img src="img/prizes/popup-prize3-1.png" alt="">
+                    	</div>
+                    	<div class="input-field mb30">
+                    		<div class="select">
+								<select name="city" class="select-search" data-placeholder="Город" required>
+									<option value=""></option>
+									<option value="1">Город</option>
+									<option value="2">Город</option>
+									<option value="3">Город</option>
+								</select>
+							</div>
+                    	</div>
+                    	<div class="btn-wrapper">
+                    		<!-- <button class="btn popup-btn">Продолжить</button> -->
+	                		<a href="#!" class="btn popup-btn pop-op" data-popup="get-prize-address">Продолжить</a>
+	                	</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<div id="get-prize-address" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup">
+					<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.0078 2L2.00781 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    					<path d="M2.00781 2L18.0078 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</a>
+                <div class="popup__inner">
+                	<div class="popup__title">Адрес</div>
+                    <div class="popup__desc">Укажите почтовый адрес, для отправки приза:</div>
+                    <div class="popup__error"></div>
+                    <form class="popup-form">
+                    	<div class="input-field">
+                    		<div class="select">
+								<select name="region" class="select-search" data-placeholder="Регион" required>
+									<option value=""></option>
+									<option value="1">Приз 1</option>
+									<option value="2">Приз 2</option>
+									<option value="3">приз 3</option>
+								</select>
+							</div>
+                    	</div>
+                    	<div class="input-field">
+                    		<div class="select">
+								<select name="city" class="select-search" data-placeholder="Населенный пункт" required>
+									<option value=""></option>
+									<option value="1">Приз 1</option>
+									<option value="2">Приз 2</option>
+									<option value="3">приз 3</option>
+								</select>
+							</div>
+                    	</div>
+						<div class="input-field">
+                    		<div class="select">
+								<select name="street" class="select-search" data-placeholder="Улица" required>
+									<option value=""></option>
+									<option value="1">Приз 1</option>
+									<option value="2">Приз 2</option>
+									<option value="3">приз 3</option>
+								</select>
+							</div>
+                    	</div>
+                    	<div class="input-field">
+                    		<div class="select">
+								<select name="house" class="select-search" data-placeholder="Дом/строение/корпус" required>
+									<option value=""></option>
+									<option value="1">Приз 1</option>
+									<option value="2">Приз 2</option>
+									<option value="3">приз 3</option>
+								</select>
+							</div>
+                    	</div>
+                    	<div class="input-field mb30">
+                    		<input type="text" name="flat" placeholder="Квартира" required>
+                    	</div>
+                    	<div class="btn-wrapper">
+                    		<!-- <button class="btn popup-btn">Продолжить</button> -->
+	                		<a href="#!" class="btn popup-btn pop-op" data-popup="get-prize-pd">Продолжить</a>
+	                	</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<div id="get-prize-pd" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup">
+					<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.0078 2L2.00781 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    					<path d="M2.00781 2L18.0078 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</a>
+                <div class="popup__inner">
+                	<div class="popup__title">Ввести данные</div>
+                    <div class="popup__desc">При сумме призов свыше 4000 рублей, для их получения необходимо загрузить паспортные данные и ИНН для уплаты организатором налога за участника.</div>
+                    <div class="popup__error"></div>
+                    <form class="popup-form">
+                    	<div class="input-field">
+                    		<div class="pseudo-input">Контантин Константинович Константинопольский</div>
+                    	</div>
+                    	<div class="pd-title">Дата рождения</div>
+                    	<div class="input-field">
+                    		<input type="text" name="birthday" placeholder="(дд.мм.гггг)" required>
+                    	</div>
+                    	<div class="pd-title">Паспортные данные</div>
+                    	<div class="input-field-double">
+                    		<div class="input-field">
+	                    		<input type="text" name="p-series" placeholder="Серия" required>
+	                    	</div>
+	                    	<div class="input-field">
+	                    		<input type="text" name="p-number" placeholder="Номер" required>
+	                    	</div>
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="p-date" placeholder="Дата выдачи (дд.мм.гггг)" required>
+                    	</div>
+						<div class="input-field">
+                    		<input type="text" name="p-issued" placeholder="Кем выдан" required>
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="p-registration" placeholder="Адрес регистрации" required>
+                    	</div>
+                    	<div class="pd-title">ИНН</div>
+                    	<div class="input-field">
+                    		<input type="text" name="inn" placeholder="12 цифр" required>
+                    	</div>
+                    	<div class="pd-title">Фотографии или сканы</div>
+                    	<div class="upload-wrap">
+			                <div class="upload">
+			                    <input type="file" name="p-photo1" class="dropify" data-dpf="1" data-height="42" />
+			                </div>
+			                <div class="upload-text">Паспорт, разворот с фото</div>
+			            </div>
+			            <div class="upload-wrap">
+			                <div class="upload">
+			                    <input type="file" name="p-photo2" class="dropify" data-dpf="1" data-height="42" />
+			                </div>
+			                <div class="upload-text">Паспорт, разворот с пропиской</div>
+			            </div>
+			            <div class="upload-wrap mb30">
+			                <div class="upload">
+			                    <input type="file" name="inn-photo" class="dropify" data-dpf="1" data-height="42" />
+			                </div>
+			                <div class="upload-text">ИНН</div>
+			            </div>
+                    	<div class="btn-wrapper">
+	                		<button class="btn popup-btn">Отправить</button>
+	                	</div>
+                    </form>
+                </div>
+            </div>
+		</div>
 	</div>
 
 	<script src="libs/jquery-3.5.1.min.js"></script>
@@ -455,6 +678,7 @@
 	<script src="libs/jquery.inputmask.min.js"></script>
 	<script src="libs/jquery.countdown.min.js"></script>
 	<script src="libs/slick.min.js"></script>
+	<script src="libs/dropify/dropify.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
