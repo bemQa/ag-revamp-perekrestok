@@ -2245,6 +2245,7 @@ table td:nth-child(3) {
 .lk-table {
     max-width: 530px;
     width: 100%;
+    min-height: 420px;
     margin: auto;
 }
 
@@ -3020,6 +3021,10 @@ table td:nth-child(3) {
         height: 474px;
         background: url(../img/lk-decor4-mob.png) center no-repeat;
         background-size: 553px;
+    }
+
+    .lk-table {
+        min-height: 300px;
     }
 
     .lk-table table th, 
