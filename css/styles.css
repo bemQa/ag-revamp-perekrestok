@@ -1885,7 +1885,7 @@ table td:nth-child(3) {
 }
 
 .products-item {
-    max-width: 244px;
+    max-width: 250px;
     width: 100%;
     text-align: center;
     margin: 30px 0;
@@ -2767,6 +2767,10 @@ table td:nth-child(3) {
         background-size: 553px;
     }
 
+    .products-group {
+        margin-bottom: 50px;
+    }
+
     .products-logo {
         position: absolute;
         top: -28px;
@@ -2809,6 +2813,10 @@ table td:nth-child(3) {
     .products-item {
         max-width: 100%;
         margin: 0 auto;
+    }
+
+    .products-item.desktop-visible {
+        display: none !important;
     }
 
 	.faq-container {
