@@ -145,6 +145,13 @@
 					</div>
 				</div>
 			</section>
+			<section class="map-block">
+				<!-- <div class="map-overlay"></div> -->
+				<div id="map" class="map"></div>
+				<div class="map-title">Рассказать о моем городе</div>
+				<div class="map-text desktop-visible">Заполните карточку своего города, чтобы рассказать всем о самых интересных его местах. Смотрите карточки других участников и изучайте другие города.</div>
+				<a href="#!" class="btn pop-op" data-popup="add-pin">Поставить отметку</a>
+			</section>
 		</div>
 		<footer>
 			<div class="container">
@@ -363,6 +370,61 @@
                 </div>
             </div>
 		</div>
+		<div id="add-pin" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup">
+					<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.0078 2L2.00781 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    					<path d="M2.00781 2L18.0078 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</a>
+                <div class="popup__inner">
+                    <div class="popup__title">Рассказать <br>о моем городе</div>
+                    <div class="popup__error"></div>
+                    <form class="popup-form">
+                    	<div class="input-field">
+                    		<div class="select">
+								<select name="city" class="select-search" data-placeholder="Выбрать город" required>
+									<option value=""></option>
+									<option value="1">Город</option>
+									<option value="2">Город</option>
+									<option value="3">Город</option>
+								</select>
+							</div>
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="address" placeholder="Укажите адрес" required>
+                    	</div>
+                    	<div class="input-field">
+                    		<input type="text" name="place" placeholder="Название места" required>
+                    	</div>
+                    	<div class="input-field">
+                    		<textarea type="text" name="place-message" placeholder="Ваш рассказ" required></textarea>
+                    	</div>
+                    	<div class="btn-wrapper">
+							<button class="btn popup-btn">Отправить</button>
+						</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<div id="add-pin-success" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup">
+					<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.0078 2L2.00781 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    					<path d="M2.00781 2L18.0078 18" stroke="#682700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</a>
+                <div class="popup__inner">
+                	<div class="popup__title">Спасибо за то, что ты рассказал нам об интересном месте твоего города! </div>
+                    <div class="popup__desc">Твоя отметка отправлена на модерацию, и, в случае прохождения, появится на карте в течение 1 недели.</div>
+                    <div class="btn-wrapper">
+						<a href="#!" class="btn popup-btn js-close-popup">Понятно</a>
+					</div>
+                </div>
+            </div>
+		</div>
 	</div>
 
 	<script src="libs/jquery-3.5.1.min.js"></script>
@@ -372,6 +434,7 @@
 	<script src="libs/jquery.inputmask.min.js"></script>
 	<script src="libs/jquery.countdown.min.js"></script>
 	<script src="libs/slick.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru-RU&amp;apikey=c8f687da-4925-4f5d-837c-0c3076fa6f51" type="text/javascript"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>

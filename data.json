@@ -1,0 +1,565 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+        "type": "Feature",
+        "id": 0,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.751244, 37.629017]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Парк «Зарядье»",
+            "balloonContentBody": "Интересный дизайн и ландшафт, со сменной растительности для разных климатических полос. Четыре климатические зоны России - смешанный лес, северный ландшафт, степь и заливные луга. Над Москворецкой набережной и Москвой-рекой словно летит воздушная конструкция в виде буквы «V». Это уникальный мост, единственный в России - у него 70-метровая консоль без единой опоры. В парке представлена одна из крупнейших открытых площадок для концертов, шоу и спектаклей. Так же можно посетить такие места как: «Ледяная пещера», подземный музей «Зарядье», Многофункциональный «Медиацентр». Есть детские площадки, водоёмы с карпами, рестораны, подземный паркинг.",
+            "clusterCaption": "Парк «Зарядье»",
+            "hintContent": "Парк «Зарядье»"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 1,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.749628, 37.537425]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Смотровая площадка «Москва-Сити»",
+            "balloonContentBody": "Смотровая площадка Panorama360 идеальное место для погружения в атмосферу эйфории от великолепных видов столицы.Приятным бонусом является бесплатная дегустация мороженного",
+            "clusterCaption": "Смотровая площадка «Москва-Сити»",
+            "hintContent": "Смотровая площадка «Москва-Сити»"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 2,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.758929, 37.664464]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Музей Эмоций",
+            "balloonContentBody": "В этом музее можно полежать в гробу, побывать в поле огромных ромашек, посидеть на троне, примерив корону и королевскую мантию. Всего художник выделяет 7 основных эмоций: радость, гнев, удивление, отвращение, влюбленность, страх и вдохновение. Каждой эмоции в музее посвящена отдельная комнатка, а комнаты между собой соединяются тематическими коридорами. Здесь нужно не только смотреть глазами, но и нюхать, щупать и всячески взаимодействовать с экспонатами.",
+            "clusterCaption": "Музей Эмоций",
+            "hintContent": "Музей Эмоций"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 3,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.708191, 37.545366]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Московская канатная дорога",
+            "balloonContentBody": "Хорошее место чтобы посмотреть на Москву с высоты.Пересекая Москва-реку, можно добраться от Лужников до Воробьевых гор.Виды между Воробьёвыми горами и Лужниками просто потрясающие!",
+            "clusterCaption": "Московская канатная дорога",
+            "hintContent": "Московская канатная дорога"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 4,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.734354, 37.630328]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Арт-пространство «Бункер 703»",
+            "balloonContentBody": "Бункер сохранен в своём естественном состоянии без \"музейного лоска\". Экскурсия проходит в интерактивном виде: с фонариками в темноте, разрешается самим открывать двери бункера,измерять старым дозиметром куски уранового стекла, запускать фильтровальную систему пятидесятых годов и еще много всего. Это место для тех, кому нравится всё настоящее и уникальное!",
+            "clusterCaption": "Арт-пространство «Бункер 703»",
+            "hintContent": "Арт-пространство «Бункер 703»"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 5,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Сад дружбы",
+            "balloonContentBody": "Это местечко подарил Санкт-Петербургу его город-побратим Шанхай в честь 300-летия города. Атмосферный китайский сад в центре Петербурга с яблонями, небольшими соснами и традиционной сакурой был возведен профессиональными ландшафтными архитекторами, которые специально приезжали из Китая. В саду можно почитать книгу, помедитировать или просто погулять, наслаждаясь спокойствием.",
+            "clusterCaption": "Сад дружбы",
+            "hintContent": "Сад дружбы"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 6,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944526, 30.352079]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Лютеранская церковь Анненкирхе",
+            "balloonContentBody": "Еще один способ ближе узнать оборотную сторону петербургской архитектуры — заглянуть в сгоревшую лютеранскую церковь Анненкирхе (Кирочная ул., 8В). В XVIII-XIX веках здесь находился немецкоязычный приход, в советское время — кинотеатр, а потом — рок-клуб. Во дворе церкви снималось несколько сцен фильма «Брат». В 2002 году интерьеры кирхи уничтожил пожар. Восстановление идет постепенно, но церковь открыта для посетителей. Здесь проходят выставки и ярмарки, концерты и другие культурные мероприятия. Петербуржцы часто захаживают сюда. Но самое интересное, что вы здесь увидите — готические церковные интерьеры, немного мрачноватые, но по-настоящему впечатляющие.",
+            "clusterCaption": "Лютеранская церковь Анненкирхе",
+            "hintContent": "Лютеранская церковь Анненкирхе"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 7,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.961246,30.452789]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Музей стрит-арта",
+            "balloonContentBody": "Современное искусство в бывшей промышленной зоне. Очень занятно погулять! Самые удивительные места — это бывшие здания, которые теперь служат арт-объектами. Уйдете с кучей классных фоток точно!",
+            "clusterCaption": "Музей стрит-арта",
+            "hintContent": "Музей стрит-арта"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 8,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.933054, 30.301253]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Республика кошек и котов",
+            "balloonContentBody": "Первое котокафе в России и Европе было открыто в Санкт-Петербурге в 2011 году — \"Республика кошек\", которое находится на Якубовича, 10. Это центр Котокультурной столицы страны и филиал первого в России Музея Кошки. ​Сюда можно прийти на кототерапию, где вы окажетесь в компании 25 кошек 17 пород, в том числе Эрмитажных котов. Их можно: гладить, фотографировать, играться с ними. Это самое прекрасное место для любителей кошек, и сюда приезжают туристы со всей России и мира. ",
+            "clusterCaption": "Республика кошек и котов",
+            "hintContent": "Республика кошек и котов"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 9,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.933785, 30.34845]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Республика кошек и котов",
+            "balloonContentBody": "Первое котокафе в России и Европе было открыто в Санкт-Петербурге в 2011 году — \"Республика кошек\", которое находится на Якубовича, 10. Это центр Котокультурной столицы страны и филиал первого в России Музея Кошки. ​Сюда можно прийти на кототерапию, где вы окажетесь в компании 25 кошек 17 пород, в том числе Эрмитажных котов. Их можно: гладить, фотографировать, играться с ними. Это самое прекрасное место для любителей кошек, и сюда приезжают туристы со всей России и мира. ",
+            "clusterCaption": "Республика кошек и котов",
+            "hintContent": "Республика кошек и котов"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 10,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.049937, 82.831685]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Чайная юрта в Заельцовском парке",
+            "balloonContentBody": "Уникальная чайная, где можно отведать Алтайские травяные чаи и угощения. Чаепитие проходит в традиционной монгольской войлочной избе, в самом центре которой расположена настоящая дровяная печь. Можно находиться сколько угодно времени, примерять и делать фото в костюмах народов севера. Уютное и необычное место.",
+            "clusterCaption": "Чайная юрта в Заельцовском парке",
+            "hintContent": "Чайная юрта в Заельцовском парке"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 11,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.009027, 82.953254]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Парк чудес Галилео Wonder Park Galileo",
+            "balloonContentBody": "Очень интересное место ! Всё можно трогать, включать, везде лазить, это очень необычно и познавательно.Место яркое и интересное даже для самых маленьких.Зеркальный лабиринт просто класс! ",
+            "clusterCaption": "Парк чудес Галилео Wonder Park Galileo",
+            "hintContent": "Парк чудес Галилео Wonder Park Galileo"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 12,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [56.8329, 60.597295]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Ньютон БИО, парк научных развлечений",
+            "balloonContentBody": "Два уникальных интерактивных музея науки открывают детям и неравнодушным взрослым тайны мироздания, научные законы и принципы в форме непосредственного «общения» с необычными приборами, устройствами и механизмами. В ходе увлекательной «прогулки» по Паркам в сопровождении «заряженных» экскурсоводов Вы участвуете в опытах и экспериментах.",
+            "clusterCaption": "Ньютон БИО, парк научных развлечений",
+            "hintContent": "Ньютон БИО, парк научных развлечений"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 13,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 14,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 15,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 16,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 17,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 18,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 19,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 20,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 21,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 22,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 23,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 24,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 25,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 26,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 27,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 28,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 29,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 30,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 31,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 32,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 33,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 34,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [59.944161, 30.347911]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "---",
+            "balloonContentBody": "___",
+            "clusterCaption": "---",
+            "hintContent": "---"
+        }
+    }
+	]
+}

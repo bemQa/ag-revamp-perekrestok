@@ -248,4 +248,35 @@ $(document).ready(function () {
             }
         });
     }
+
 });
+
+ymaps.ready(mapInit);
+
+function mapInit () {
+    var myMap = new ymaps.Map('map', {
+            center: [56.83, 60.59],
+            zoom: 5,
+            controls: []
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+        objectManager = new ymaps.ObjectManager({
+            clusterize: true,
+            gridSize: 32,
+            clusterDisableClickZoom: true
+        });
+
+    objectManager.objects.options.set('preset', 'islands#greenDotIcon');
+    objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
+    myMap.geoObjects.add(objectManager);
+    myMap.behaviors.disable('scrollZoom');
+    myMap.controls.add('zoomControl');
+
+    $.ajax({
+        url: "/data.json"
+    }).done(function(data) {
+        objectManager.add(data);
+    });
+
+}
