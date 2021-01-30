@@ -2893,6 +2893,8 @@ table td:nth-child(3) {
     left: 0;
     right: 0;
     margin: auto;
+    max-width: 650px;
+    width: 100%;
     font-weight: 900;
     font-size: 50px;
     line-height: 63px;
@@ -3634,6 +3636,7 @@ table td:nth-child(3) {
 
     .map-title {
         top: 45px;
+        max-width: 280px;
         font-size: 42px;
         line-height: 50px;
     }
