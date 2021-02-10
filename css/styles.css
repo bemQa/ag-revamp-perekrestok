@@ -649,22 +649,22 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
-    height: 55px;
+    height: 68px;
     margin: auto;
     background: #FCAE18;
     z-index: 11;
 }
 
 header ~ .main-block,
-header ~ .inner-page-top {
-	margin-top: 55px;
+header ~ .inner-page {
+	margin-top: 68px;
 }
 
 .menu {
 	position: relative;
 	max-width: 1200px;
 	width: 100%;
-	height: 55px;
+	height: 68px;
     margin: 0 auto;
 }
 
@@ -678,9 +678,9 @@ header ~ .inner-page-top {
 
 .menu-links {
     position: relative;
-	max-width: 850px;
+	max-width: 777px;
 	width: 100%;
-	height: 55px;
+	height: 68px;
 	margin: 0 auto;
     display: flex;
     -ms-align-items: center;
@@ -700,7 +700,7 @@ header ~ .inner-page-top {
     color: #682700;
     white-space: nowrap;
     padding: 0 18px;
-    height: 55px;
+    height: 68px;
 }
 
 .menu-link.active,
@@ -727,10 +727,10 @@ header ~ .inner-page-top {
 
 .ex {
     position: absolute;
-    top: 0;
+    top: 7px;
     right: 0;
-    width: 161px;
-    height: 134px;
+    width: 212px;
+    height: 160px;
     background: url(../img/ex-perekrestok.svg) center no-repeat;
     background-size: contain;
 }
@@ -1425,10 +1425,6 @@ span.error {
     z-index: 1;
 }
 
-.winners-page {
-    padding-top: 100px;
-}
-
 .superwinner-title {
     font-weight: 500;
     font-size: 21px;
@@ -1436,7 +1432,7 @@ span.error {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .superwinner-title2 {
@@ -1493,13 +1489,25 @@ span.error {
     background-size: contain;
 }
 
+.superwinner-wrapper {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 830px;
+    width: 100%;
+    margin: 30px auto 100px;
+}
+
 .winners-title {
+    position: relative;
     font-weight: 900;
-    font-size: 21px;
-    line-height: 26px;
+    font-size: 42px;
+    line-height: 53px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFE686;
+    color: #fff;
+    text-shadow: -2px 2px 2px rgb(104 39 0 / 75%)
 }
 
 .filters {
@@ -1706,6 +1714,11 @@ span.error {
     margin: auto;
 }
 
+.superwinner-table {
+    max-width: 430px;
+    margin: 0;
+}
+
 .table-wrapper.scroll-content {
     padding-right: 18px;
 }
@@ -1775,12 +1788,12 @@ table td:nth-child(3) {
 
 .winners-decor1 {
     position: absolute;
-    top: 310px;
+    bottom: 310px;
     left: -1300px;
     right: 0;
     margin: auto;
-    width: 107px;
-    height: 198px;
+    width: 86px;
+    height: 74px;
     background: url(../img/winners-decor1.png) center no-repeat;
     background-size: contain;
 }
@@ -1791,7 +1804,7 @@ table td:nth-child(3) {
     left: 0;
     right: 0;
     width: 100%;
-    height: 762px;
+    height: 802px;
     background: url(../img/winners-decor2.png) center no-repeat;
     background-size: 100%;
 }
@@ -2048,14 +2061,14 @@ table td:nth-child(3) {
 
 .profile-container {
     position: relative;
-    color: #FFE686;
+    color: #fff;
     margin: 70px auto 30px;
 }
 
 .logout-link {
     font-size: 14px;
     line-height: 17px;
-    color: #75B726;
+    color: #00521D;
     margin-top: 5px;
 }
 
@@ -2175,7 +2188,7 @@ table td:nth-child(3) {
     line-height: 19px;
     text-transform: uppercase;
     text-align: left;
-    color: #97C230;
+    color: #00521D;
     margin: 2px 0;
 }
 
@@ -2411,7 +2424,7 @@ table td:nth-child(3) {
     left: 0;
     right: 0;
     width: 100%;
-    height: 762px;
+    height: 800px;
     background: url(../img/lk-decor4.png) center no-repeat;
     background-size: 100%;
 }
@@ -2513,13 +2526,14 @@ table td:nth-child(3) {
     left: 0;
     right: 0;
     margin: auto;
+    max-width: 1366px;
     width: 100%;
     height: 803px;
-    background: url(../img/kv.png) center 0 no-repeat;
-    background-size: 1366px;
+    background: url(../img/kv.png) right 0 no-repeat;
+    background-size: 938px;
 }
 
-.kv-map {
+/*.kv-map {
     position: absolute;
     top: 0;
     left: 0;
@@ -2529,13 +2543,12 @@ table td:nth-child(3) {
     height: 681px;
     background: url(../img/kv-map.png) right 0 no-repeat;
     background-size: 797px;
-}
+}*/
 
 .action-info {
     max-width: 420px;
     padding-top: 100px;
-    margin-left: auto;
-    margin-right: 100px;
+    margin-right: auto;
 }
 
 .action-dates {
@@ -2605,7 +2618,6 @@ table td:nth-child(3) {
     height: 180px;
     background: linear-gradient(235.93deg, #FFFFFF 16.19%, #FFE686 63.74%, #F7B545 106.56%);
     border-radius: 100px;
-    opacity: 0.5;
     z-index: 0;
 }
 
@@ -2640,8 +2652,8 @@ table td:nth-child(3) {
     justify-content: center;
     width: 50px;
     height: 50px;
-    margin: auto;
-    background: #EB2316;
+    margin: 0 auto 10px;
+    background: #75B726;
     border-radius: 50px;
     font-weight: 900;
     font-size: 28px;
@@ -2656,8 +2668,7 @@ table td:nth-child(3) {
     line-height: 26px;
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
-    text-shadow: -1px 1px 2px rgba(104, 39, 0, 0.75);
+    color: #682700;
     margin-bottom: 5px;
 }
 
@@ -2666,7 +2677,7 @@ table td:nth-child(3) {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
-    color: #FFE686;
+    color: #682700;
 }
 
 .step-text span {
@@ -2686,9 +2697,23 @@ table td:nth-child(3) {
     left: 0;
     right: 0;
     width: 100%;
-    height: 1000px;
-    background: #00521D;
+    height: 790px;
+    background: url(../img/bg-main3.png) center 0 no-repeat;
+    background-size: 100% 100%;
     z-index: -1;
+}
+
+.prizes-block::after {
+    content: '';
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    background: #FFE586;
+    z-index: -2;
 }
 
 .prizes-title {
@@ -2719,12 +2744,13 @@ table td:nth-child(3) {
 }
 
 .prize-col-title {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 21px;
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFE686;
+    color: #fff;
+    text-shadow: -1px 1px 2px #0B0400;
     height: 48px;
     margin-bottom: 50px;
 }
@@ -2746,7 +2772,7 @@ table td:nth-child(3) {
     margin: 0 auto 50px;
 }
 
-.prize-img::before {
+/*.prize-img::before {
     content: '';
     position: absolute;
     top: 0;
@@ -2759,7 +2785,7 @@ table td:nth-child(3) {
     background: linear-gradient(235.93deg, #FFFFFF 16.19%, #FFE686 63.74%, #F7B545 106.56%);
     border-radius: 100px;
     z-index: 0;
-}
+}*/
 
 .prize1 .prize-img img {
     position: absolute;
@@ -2788,10 +2814,9 @@ table td:nth-child(3) {
 
 .prize4 .prize-img img {
     position: absolute;
-    top: 0;
+    top: -25px;
     left: 0;
     right: 0;
-    bottom: 0;
     margin: auto;
 }
 
@@ -2802,7 +2827,6 @@ table td:nth-child(3) {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    text-shadow: -1px 1px 2px rgba(104, 39, 0, 0.75);
     margin-bottom: 5px;
 }
 
@@ -2811,7 +2835,6 @@ table td:nth-child(3) {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
-    color: #FFE686;
 }
 
 .prize-text span {
@@ -2825,24 +2848,24 @@ table td:nth-child(3) {
 
 .main-decor1 {
     position: absolute;
-    top: -100px;
-    left: -900px;
-    right: 0;
+    top: -80px;
+    left: 0;
+    right: -750px;
     margin: auto;
-    width: 303px;
-    height: 187px;
+    width: 251px;
+    height: 155px;
     background: url(../img/main-decor1.png) center no-repeat;
     background-size: contain;
 }
 
 .main-decor2 {
     position: absolute;
-    top: -155px;
-    left: 0;
-    right: -1100px;
+    top: -65px;
+    left: -1100px;
+    right: 0;
     margin: auto;
-    width: 305px;
-    height: 177px;
+    width: 238px;
+    height: 109px;
     background: url(../img/main-decor2.png) center no-repeat;
     background-size: contain;
 }
@@ -2853,8 +2876,8 @@ table td:nth-child(3) {
     left: -1000px;
     right: 0;
     margin: auto;
-    width: 267px;
-    height: 165px;
+    width: 162px;
+    height: 132px;
     background: url(../img/main-decor3.png) center no-repeat;
     background-size: contain;
 }
@@ -2865,8 +2888,8 @@ table td:nth-child(3) {
     left: 0;
     right: -950px;
     margin: auto;
-    width: 278px;
-    height: 165px;
+    width: 138px;
+    height: 132px;
     background: url(../img/main-decor4.png) center no-repeat;
     background-size: contain;
 }
@@ -2875,9 +2898,24 @@ table td:nth-child(3) {
     position: relative;
 }
 
+.map-block::before {
+    content: '';
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(180deg, #FFE586 0.01%, #FFE586 55.03%, rgba(255, 229, 134, 0.13) 100%);
+    mix-blend-mode: normal;
+    z-index: 1;
+}
+
 .map {
     width: 100%;
-    height: 640px;
+    height: 600px;
+    padding-top: 140px;
 }
 
 .map-overlay {
@@ -2897,7 +2935,7 @@ table td:nth-child(3) {
     left: 0;
     right: 0;
     margin: auto;
-    max-width: 650px;
+    max-width: 960px;
     width: 100%;
     font-weight: 900;
     font-size: 50px;
@@ -2905,6 +2943,7 @@ table td:nth-child(3) {
     text-align: center;
     text-transform: uppercase;
     color: #00521D;
+    z-index: 1;
 }
 
 .map-text {
@@ -2913,13 +2952,14 @@ table td:nth-child(3) {
     left: 0;
     right: 0;
     margin: auto;
-    max-width: 600px;
+    max-width: 900px;
     width: 100%;
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
     text-align: center;
     color: #00521D;
+    z-index: 1;
 }
 
 .map-block .btn {
@@ -3028,6 +3068,17 @@ table td:nth-child(3) {
 		max-width: 375px;
     }
 
+    header,
+    .menu,
+    .menu-links {
+        height: 55px;
+    }
+
+    header ~ .main-block, 
+    header ~ .inner-page {
+        margin-top: 55px;
+    }
+
     .menu::before {
 	    box-shadow: 0px 4px 4px rgba(35, 25, 70, 0.4);
     }
@@ -3035,7 +3086,7 @@ table td:nth-child(3) {
     .logo {
         top: 10px;
         left: 60px;
-        max-width: 143px;
+        max-width: 116px;
         z-index: 11;
     }
 
@@ -3071,12 +3122,27 @@ table td:nth-child(3) {
 	    width: 100%;
 	    min-height: 450px;
         transition: all .2s linear;
-        background: #FCAE18;
+        background: linear-gradient(179.75deg, #FFE686 4.54%, #F7B545 31.41%, #F6A51B 49.61%) no-repeat;
 		mix-blend-mode: normal;
 		box-shadow: 0px 4px 4px rgba(252, 174, 24, 0.4);
         margin: auto;
         padding: 90px 0 25px;
         text-align: center;
+        z-index: 0;
+    }
+
+    .menu-links::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background: url(../img/kv-map.png) center 0 no-repeat;
+        background-size: 797px;
+        opacity: .1;
         z-index: 0;
     }
 
@@ -3086,10 +3152,12 @@ table td:nth-child(3) {
     }
 
     .menu-link {
-    	width: 100%;
+    	width: auto;
+        height: 48px;
     	font-size: 18px;
         line-height: 24px;
         padding: 0 15px;
+        border-radius: 20px;
     }
 
     .login-link::before {
@@ -3098,10 +3166,10 @@ table td:nth-child(3) {
     }
 
     .ex {
-        top: 0;
+        top: 7px;
         right: 15px;
-        width: 124px;
-        height: 96px;
+        width: 162px;
+        height: 93px;
         background: url(../img/ex-perekrestok-mob.svg) center no-repeat;
         background-size: contain;
         z-index: 11;
@@ -3170,19 +3238,66 @@ table td:nth-child(3) {
     }
 
 	.inner-page {
-		padding: 30px 0 50px;
+		padding: 75px 0 50px;
 	}
 
     .winners-page {
         padding-top: 100px;
     }
 
+    .superwinner-wrapper {
+        flex-direction: column;
+        -ms-align-items: flex-start;
+        align-items: flex-start;
+        max-width: 290px;
+        margin: 20px auto 70px;
+    }
+
+    .superwinner-win-img {
+        max-width: 159px;
+        width: 100%;
+    }
+
 	.superwinner-title {
-        margin-top: 20px;
+        position: absolute;
+        top: 110px;
+        left: 0;
+        right: -180px;
+        margin: auto;
+        width: 108px;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 26px;
+        text-align: left;
+        color: #FFE686;
+    }
+
+    .superwinner-table tr {
+        display: flex;
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .superwinner-table td {
+        padding: 0 0 10px;
+    }
+
+    .superwinner-table td:first-child {
+        max-width: 290px;
     }
 
     .superwinner-title2 {
         margin-bottom: 30px;
+    }
+
+    .winners-title {
+        font-size: 21px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFE686;
+        text-shadow: none;
     }
 
     .filters {
@@ -3388,7 +3503,7 @@ table td:nth-child(3) {
     .profile-container {
         text-align: center;
         margin-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
 
     .profile-row {
@@ -3579,7 +3694,8 @@ table td:nth-child(3) {
     }
 
     .action-title {
-        width: 307px;
+        max-width: 307px;
+        width: 100%;
         height: 132px;
         background: url(../img/kv-text-mob.svg) center no-repeat;
         background-size: contain;
@@ -3597,7 +3713,7 @@ table td:nth-child(3) {
 
     .steps-block::before {
         top: -40px;
-        height: 1320px;
+        height: 1360px;
         background: url(../img/bg-main2-mob.png) center 0 no-repeat;
         background-size: 100% 100%;
     }
@@ -3617,6 +3733,7 @@ table td:nth-child(3) {
 
     .prizes-block::before {
         height: 1900px;
+        background: url(../img/bg-main3-mob.jpg) center 0 no-repeat;
         background-size: 100% 100%;
     }
 
@@ -3657,29 +3774,53 @@ table td:nth-child(3) {
     }
 
     .map-title {
-        top: 45px;
-        max-width: 280px;
-        font-size: 42px;
-        line-height: 50px;
+        top: 70px;
+        max-width: 300px;
+        font-size: 36px;
+        line-height: 42px;
     }
 
     .map-block .btn {
         bottom: 40px;
     }
+
+    .error-404 {
+        height: 320px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        background: url(../img/404-mob.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .error-500 {
+        height: 370px;
+        margin-top: 0;
+        background: url(../img/500-mob.png) center no-repeat;
+        background-size: contain;
+    }
 }
 
 @media (max-width: 375px) {
-	
+
 }
 
 @media (max-width: 360px) {
     .ex {
-        width: 90px;
+        top: 18px;
+        width: 120px;
         height: 70px;
     }
 
     .profile-name span {
         font-size: 21px;
+    }
+
+    .winners-table table tbody {
+        font-size: 14px;
+    }
+
+    .prize-td {
+        max-width: 145px;
     }
 }
 
