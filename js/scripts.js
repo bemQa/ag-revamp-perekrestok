@@ -261,6 +261,43 @@ function mapInit () {
         }, {
             searchControlProvider: 'yandex#search'
         }),
+
+        myPlacemarkWithContent1 = new ymaps.Placemark([54.661574, 36.573856], {
+            balloonContentHeader: '<img src="/img/seryabkina.svg" class="seryabkina-mark" alt="seryabkina-mark"/><br><br> Заголовок метки 1',
+            balloonContent: 'Интересный дизайн и ландшафт, со сменной растительности для разных климатических полос. Четыре климатические зоны России - смешанный лес, северный ландшафт, степь и заливные луга. Над Москворецкой набережной и Москвой-рекой словно летит воздушная конструкция в виде буквы «V». Это уникальный мост, единственный в России - у него 70-метровая консоль без единой опоры. В парке представлена одна из крупнейших открытых площадок для концертов, шоу и спектаклей. Так же можно посетить такие места как: «Ледяная пещера», подземный музей «Зарядье», Многофункциональный «Медиацентр». Есть детские площадки, водоёмы с карпами, рестораны, подземный паркинг.',
+            hintContent: 'Заголовок метки 1'
+        }, {
+            iconLayout: 'default#imageWithContent',
+            iconImageHref: 'img/superpin.svg',
+            iconImageSize: [42, 56],
+            iconImageOffset: [-24, -24],
+            iconContentOffset: [15, 15]
+        }),
+
+        myPlacemarkWithContent2 = new ymaps.Placemark([55.661574, 37.573856], {
+            balloonContentHeader: '<img src="/img/seryabkina.svg" class="seryabkina-mark" alt="seryabkina-mark"/><br><br> Заголовок метки 2',
+            balloonContent: 'Интересный дизайн и ландшафт, со сменной растительности для разных климатических полос. Четыре климатические зоны России - смешанный лес, северный ландшафт, степь и заливные луга. Над Москворецкой набережной и Москвой-рекой словно летит воздушная конструкция в виде буквы «V». Это уникальный мост, единственный в России - у него 70-метровая консоль без единой опоры. В парке представлена одна из крупнейших открытых площадок для концертов, шоу и спектаклей. Так же можно посетить такие места как: «Ледяная пещера», подземный музей «Зарядье», Многофункциональный «Медиацентр». Есть детские площадки, водоёмы с карпами, рестораны, подземный паркинг.',
+            hintContent: 'Заголовок метки 2'
+        }, {
+            iconLayout: 'default#imageWithContent',
+            iconImageHref: 'img/superpin.svg',
+            iconImageSize: [42, 56],
+            iconImageOffset: [-24, -24],
+            iconContentOffset: [15, 15]
+        });
+
+        myPlacemarkWithContent3 = new ymaps.Placemark([57.661574, 39.573856], {
+            balloonContentHeader: '<img src="/img/seryabkina.svg" class="seryabkina-mark" alt="seryabkina-mark"/><br><br> Заголовок метки 3',
+            balloonContent: 'Интересный дизайн и ландшафт, со сменной растительности для разных климатических полос. Четыре климатические зоны России - смешанный лес, северный ландшафт, степь и заливные луга. Над Москворецкой набережной и Москвой-рекой словно летит воздушная конструкция в виде буквы «V». Это уникальный мост, единственный в России - у него 70-метровая консоль без единой опоры. В парке представлена одна из крупнейших открытых площадок для концертов, шоу и спектаклей. Так же можно посетить такие места как: «Ледяная пещера», подземный музей «Зарядье», Многофункциональный «Медиацентр». Есть детские площадки, водоёмы с карпами, рестораны, подземный паркинг.',
+            hintContent: 'Заголовок метки 3'
+        }, {
+            iconLayout: 'default#imageWithContent',
+            iconImageHref: 'img/superpin.svg',
+            iconImageSize: [42, 56],
+            iconImageOffset: [-24, -24],
+            iconContentOffset: [15, 15]
+        });
+
         objectManager = new ymaps.ObjectManager({
             clusterize: true,
             gridSize: 32,
@@ -270,6 +307,10 @@ function mapInit () {
     objectManager.objects.options.set('preset', 'islands#greenDotIcon');
     objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
     myMap.geoObjects.add(objectManager);
+    myMap.geoObjects
+            .add(myPlacemarkWithContent1)
+            .add(myPlacemarkWithContent2)
+            .add(myPlacemarkWithContent3);
     myMap.behaviors.disable('scrollZoom');
     myMap.controls.add('zoomControl');
 

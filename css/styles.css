@@ -3003,6 +3003,11 @@ table td:nth-child(3) {
     margin: auto;
 }
 
+.map .seryabkina-mark {
+    position: absolute;
+    top: 0;
+}
+
 .error-404 {
     max-width: 1066px;
     width: 100%;
