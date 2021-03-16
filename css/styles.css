@@ -730,7 +730,7 @@ header ~ .inner-page {
     top: 7px;
     right: 0;
     width: 212px;
-    height: 160px;
+    height: 122px;
     background: url(../img/ex-perekrestok.svg) center no-repeat;
     background-size: contain;
 }
@@ -2524,12 +2524,12 @@ table td:nth-child(3) {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
+    right: -445px;
     margin: auto;
     max-width: 1366px;
     width: 100%;
     height: 803px;
-    background: url(../img/kv.png) right 0 no-repeat;
+    background: url(../img/kv.png) center 0 no-repeat;
     background-size: 938px;
 }
 
@@ -3174,7 +3174,7 @@ table td:nth-child(3) {
         top: 7px;
         right: 15px;
         width: 162px;
-        height: 93px;
+        height: 92px;
         background: url(../img/ex-perekrestok-mob.svg) center no-repeat;
         background-size: contain;
         z-index: 11;
@@ -3685,9 +3685,10 @@ table td:nth-child(3) {
     }
 
     .kv {
-        height: 679px;
+        right: 0;
+        height: 680px;
         background: url(../img/kv-mob.png) center 0 no-repeat;
-        background-size: 524px;
+        background-size: 522px;
     }
 
     .action-info {
